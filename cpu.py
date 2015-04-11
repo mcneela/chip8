@@ -1,8 +1,5 @@
 from array import array
 from random import randint
-import sys
-sys.path.append("c:\\Users\\Danny\\documents\\chip-8\\pyglet-1.2.2\\")
-print(sys.path)
 import pyglet
 
 class CPU(pyglet.window.Window):
